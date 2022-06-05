@@ -22,6 +22,7 @@ def ifs_menu(numero, base_origen, base_a_convertir):
         numero.upper()
         print (" [",numero,"] EN BASE ", base_origen, " =  [",decimal,"] EN BASE ",base_a_convertir)
         print()
+        # return
 
 
     elif base_a_convertir >= 11 and base_a_convertir <= 16:
